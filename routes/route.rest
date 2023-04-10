@@ -15,3 +15,12 @@ GET http://localhost:3000/subscriber/6431a73138ae3aaec07cf759
 
 ###
 DELETE   http://localhost:3000/subscriber/6431a97c7bc873c056ad6491
+
+###
+PATCH http://localhost:3000/subscriber/6431ab9b3324384b8127bf29
+Content-type: application/json
+
+{
+    "name" : "Neeyetha",
+    "subscribedToChannel" : "ThePrimeAgen"
+}
